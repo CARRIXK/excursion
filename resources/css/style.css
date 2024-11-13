@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: white; /* Ensures text is readable on black */
     min-height: 100vh; /* Full viewport height coverage */
-    font-family: Arial, sans-serif; /* Sets a default font */
-    line-height: 1.6; /* Improves readability */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Sets a default font */
     justify-content: center;
 }
+
