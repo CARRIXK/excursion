@@ -4,7 +4,5 @@ body {
     min-height: 100vh; /* Full viewport height coverage */
     font-family: Arial, sans-serif; /* Sets a default font */
     line-height: 1.6; /* Improves readability */
-    display: flex;
-    align-items: center;
     justify-content: center;
 }
