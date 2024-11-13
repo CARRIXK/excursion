@@ -11,7 +11,10 @@
 	    <h1>Discover hidden places in the world around you</h1>
 	    <a href="https://apps.apple.com" target="_blank">Download excusion (Coming soon!)</a>
 	    <p>
-	    	<video scr="resources/videos/excursion.mp4" controls autoplay loop>The browser does not support the video tag</video>
+	    	<video loop autoplay muted>
+				<source src="resources/videos/excursion.mp4" type="video/mp4">
+				The browser does not support the video tag
+			</video>
 	    </p>
 	</section>
 
@@ -32,6 +35,13 @@
             <a href="htpps://apps.apple.com" target="_blank">Download Excursion (Coming soon!)</a>
         </section>
 
+		<footer>
+			<p>&copy; Excursion <span id="year"></span></p>
+		</footer>
+
+		<script>
+			document.getElementById('year').textContent = new Date().getFullYear();
+		</script>
 </body>
 </html>
 
